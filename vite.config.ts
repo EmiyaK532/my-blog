@@ -39,6 +39,9 @@ export default defineConfig((configEnv) => {
 			commonjsOptions: {
 				ignoreTryCatch: false,
 			},
+			rollupOptions: {
+				external: ['aplayer']
+			}
 		},
 	};
 });
